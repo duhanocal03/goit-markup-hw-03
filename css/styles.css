@@ -48,7 +48,8 @@ h1{
 h2{
     font-weight: bold;
     font-size:36px;
-   
+   margin: 0;
+   padding: 0;
 }
 
 h3 {
@@ -191,7 +192,11 @@ main .headers ul li{
     background-color: #F4F4FD;
     height: 732px;
     width: 1158px;
-    
+}
+
+.contain h2 {
+
+margin-bottom: 75px;
 }
 
 .contain section ul {
@@ -222,9 +227,14 @@ main .headers ul li{
 
 .container .port-info{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 120px 0px ;
+}
+
+.port-info h2{
+    margin-bottom: 75px;
 }
 
 .container .port-info ul{
